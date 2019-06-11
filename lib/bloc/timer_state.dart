@@ -30,7 +30,7 @@ class PausedState extends TimerState {
 }
 
 class FinishedState extends TimerState {
-  FinishedState() : super(0); // because the countdown is complete.
+  FinishedState() : super(0); // duration = 0 because the countdown is complete.
 
   @override
   String toString() => 'Finished {duration: $duration}';

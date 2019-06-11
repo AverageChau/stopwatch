@@ -25,6 +25,11 @@ class ResumeEvent extends TimerEvent {
   String toString() => "Resume";
 }
 
+class ResetEvent extends TimerEvent {
+  @override
+  String toString() => "Reset";
+}
+
 class TickEvent extends TimerEvent {
   final int duration;
   TickEvent({@required this.duration}) : super([duration]);
