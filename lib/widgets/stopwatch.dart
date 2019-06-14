@@ -18,10 +18,7 @@ class Stopwatch extends StatelessWidget {
             Clock(
               seconds: duration,
             ),
-            Action(
-              state: state,
-              timerBloc: _timerBloc,
-            )
+            Action()
           ],
         );
       },

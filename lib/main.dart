@@ -33,6 +33,3 @@ class _MyAppState extends State<MyApp> {
     super.dispose();
   }
 }
-
-// TODO: Warp MaterialApp with BlocProvider, then remove BlocBuilder
-// in stopwatch.dart .
